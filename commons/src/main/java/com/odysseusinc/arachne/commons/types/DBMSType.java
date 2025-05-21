@@ -14,7 +14,8 @@ public enum DBMSType {
     SPARK("Spark", "spark"),
     IRIS("Iris", "iris"),
     SNOWFLAKE("Snowflake", "snowflake"),
-    SYNAPSE("Azure Synapse", "synapse");
+    SYNAPSE("Azure Synapse", "synapse"),
+    TRINO("Trino","trino");
 
     private String label;
     // For further pass into SqlRender.translateSql as "targetDialect" and DatabaseConnector as "dbms"

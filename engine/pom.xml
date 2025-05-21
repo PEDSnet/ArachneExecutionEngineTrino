@@ -584,7 +584,7 @@
             <id>community-libs-release-local</id>
             <name>community-libs-release-local</name>
             <releases>
-                <enabled>true</enabled>
+                <enabled>false</enabled>
                 <updatePolicy>always</updatePolicy>
             </releases>
             <snapshots>
